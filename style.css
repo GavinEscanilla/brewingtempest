@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    left: 0;
+    border: 1px solid #ccc;
+    align-items: flex-end;
+    width: 100vw;
+}
+ol{
+ display: flex;   
+ flex-direction: row; 
+ justify-content: flex-end;
+ text-decoration: none;
+ list-style-type: none;
+ margin-left: 90px;
+}
+li{
+    display: flex;   
+ flex-direction: row; 
+ justify-content: flex-end;
+  margin-left: 100px;
+   
+}
