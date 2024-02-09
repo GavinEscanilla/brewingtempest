@@ -34,16 +34,27 @@ li{
     margin: 0;
     padding: 0;
     border: 1px solid black;
-    background-color: red;
+    background-color: burlywood;
     width: 100%;
     height: 100vh;
-    
-}
-#homeimg{
-    width: 100%;
-    height: 50%;
+    display: flex; 
+    align-items: center; 
+} 
+
+#home-img {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100vh;
     float: left;
 <<<<<<< HEAD
+}
+h1,p {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+=======
 } 
 .home h1, p{
     display: flex;
@@ -54,6 +65,4 @@ li{
    
     
 }
-=======
-} 
->>>>>>> parent of abb2d84 (on a new problem)
+>>>>>>> 8308414351d48a75d5aaf40edf56c0813a3ca5ea
