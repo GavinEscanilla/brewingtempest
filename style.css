@@ -34,26 +34,26 @@ li{
     margin: 0;
     padding: 0;
     border: 1px solid black;
-    background-color:  burlywood;
+    background-color: red;
     width: 100%;
     height: 100vh;
     
 }
 #homeimg{
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    height: 100vh;
+    width: 100%;
+    height: 50%;
     float: left;
+<<<<<<< HEAD
 } 
-.hometext{
+.home h1, p{
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-   width: 50%;
-    margin-top: 130px;
-    align-items: center;
+    text-align: center;
+   
+   
    
     
 }
+=======
+} 
+>>>>>>> parent of abb2d84 (on a new problem)
