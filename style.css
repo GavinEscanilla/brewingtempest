@@ -47,22 +47,11 @@ li{
     width: 50%;
     height: 100vh;
     float: left;
-<<<<<<< HEAD
 }
 h1,p {
     display: flex;
     flex-direction: column;
     text-align: center; 
 }
-=======
-} 
-.home h1, p{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-   
-   
-   
-    
-}
->>>>>>> 8308414351d48a75d5aaf40edf56c0813a3ca5ea
+
+
