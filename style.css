@@ -33,8 +33,7 @@ li{
 .home{
     margin: 0;
     padding: 0;
-    border: 1px solid black;
-    background-color: burlywood;
+    background-color: #301934;
     width: 100%;
     height: 100vh;
     display: flex; 
@@ -48,10 +47,18 @@ li{
     height: 100vh;
     float: left;
 }
-h1,p {
+.hometext{
     display: flex;
     flex-direction: column;
-    text-align: center; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
 }
+
+
+
 
 
