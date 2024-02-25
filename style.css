@@ -12,6 +12,9 @@ nav{
     width: 100vw;
     z-index: 100;
 }
+nav.with-border {
+    border-bottom: none; 
+}
 #navtitle {
     margin-left: 90px;
 }
