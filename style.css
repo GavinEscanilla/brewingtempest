@@ -26,7 +26,7 @@ nav > ol{
     list-style: none;
 }
  li{
-    justify-content: end;
+    justify-content: space-between;;
     margin-right: 50px;
  }
 
