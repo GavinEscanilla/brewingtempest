@@ -35,7 +35,7 @@ nav > ol{
     margin: 0;
     padding: 0;
     background-color: burlywood;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex; 
     align-items: center; 
@@ -86,6 +86,8 @@ a{
      padding: 0;
      right: 49%;
      top: 49%;
+     margin-left: 10px;
+     margin-right: -5px;
 
 }
 #homepage1{
