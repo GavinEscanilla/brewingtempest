@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0 ;
-    overflow-x:scroll;
 }
 nav{
     display: flex;
@@ -87,6 +86,15 @@ a{
      right: 49%;
      top: 49%;
 
+}
+#homepage1{
+    background-color: black;
+}
+#homepage2{
+    background-color: transparent;
+}
+#homepage3{
+    background-color: transparent;
 }
 
 
