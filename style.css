@@ -297,6 +297,9 @@ nav > ol{
     text-align: center;
     
 }
+#home-butonwrap{
+    display: flex;
+}
 #collections{
  display: flex;
  flex-direction: column;
