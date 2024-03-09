@@ -48,7 +48,7 @@ nav > ol{
     background-color: burlywood;
     width: 100%;
     height: 100%; 
-    align-items: center; 
+    align-items: center;
 } 
 
 #home-img {
@@ -70,6 +70,10 @@ nav > ol{
 }
 #home-butonwrap{
     display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 48%;
+    right: 45%;
 }
 #collections{
  display: flex;
@@ -81,15 +85,14 @@ a{
     color:black
 }
 .home-button{
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    flex-direction: column;
      border: 1px solid black;
      border-radius: 100%;
-     aspect-ratio: 1 / 1; 
-     height: 10px;
+     aspect-ratio: 1/1;
+     height: 20px;
      width:20px;
-     
-
+     margin-right: 10px;
 }
 #homepage1{
     background-color: black;
@@ -120,9 +123,13 @@ a{
     display: inline-flex;
     flex-direction: row ;
      aspect-ratio: 1 / 1; 
-     height: 10px;
+     height: 20px;
      width:20px;
     
 }
+#home-butonwrap{
+    display: flex;
+    flex-direction: row;
+    position: static;
 }
-test
+}
