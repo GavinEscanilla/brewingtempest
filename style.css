@@ -23,9 +23,10 @@ nav{
     width: 100vw;
     z-index: 100;
     justify-content: space-between;
+    align-items: center;
 }
 nav.with-border {
-    border-bottom: none; 
+    border-bottom: transparent; 
 }
 #navtitle {
     margin-left: 90px;
@@ -36,7 +37,7 @@ nav > ol{
     list-style: none;
 }
  li{
-    justify-content: space-between;;
+    justify-content: space-between;
     margin-right: 50px;
  }
 
@@ -73,7 +74,7 @@ nav > ol{
     flex-direction: row;
     position: relative;
     top: 48%;
-    right: 45%;
+    right: 48%;
 }
 a{
     text-decoration: none;
@@ -102,6 +103,9 @@ a{
     nav > ol {
         flex-direction: column;
     }
+    nav.with-border {
+        border-bottom: transparent; 
+    }
 }
 @media screen and (max-width: 450px) {
     .home {
@@ -126,15 +130,36 @@ a{
     display: flex;
     flex-direction: row;
     position: static;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
 }
 }
 #collections{
-    display: flex;
-    flex-direction: column;
+    display: block;
     text-align: center;
     background-color: aqua;
+    height: fit-content;
    }
    .icon-border{
+    display: inline-block;
+   
+    margin-left: 30px;
     border: 1px solid black;
+    width: 150px;
+    aspect-ratio: 1/1;
+    height: 150px;
+    border-radius: 100%;
+    align-items: center;
+    margin: 10px;
+   }
+   .icons{
+    display: flex;
+    font-size: 80px; 
+    margin-top: 30px;
+   }
+   #family{
+    background-image: url('Untitled-design-1.png') ;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    height: vh;
+    width: 100%;
    }
